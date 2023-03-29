@@ -154,6 +154,7 @@ class fsigma8(Likelihood):
         """
         k_ref=2E-4
         Omegam_z = self.provider.get_Omega_b(z)+self.provider.get_Omega_cdm(z)+self.provider.get_Omega_nu_massive(z)
+        # Omegam_z = self.provider.get_Omega_b(z)+self.provider.get_Omega_cdm(z)
         f_z = Omegam_z**(self.provider.get_param('gamma0'))
         sigma8_z = self.provider.get_sigma8_z(z)
         Plin = self.provider.get_Pk_interpolator(var_pair=("delta_tot","delta_tot"),
