@@ -1,3 +1,5 @@
+This is a fork of the Cobaya framework (see its orignal README below). Here, we added a simple fsigma8(z) likelihood for our analysis in: https://arxiv.org/abs/2302.01331. If you use the likelihood, please consider citing our paper.
+
 *Cobaya*, a code for Bayesian analysis in Cosmology
 ===================================================
 
